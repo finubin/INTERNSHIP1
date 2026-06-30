@@ -14,13 +14,18 @@ class Student:
 
     def update_grade(self, new_grade):
         self.grade = new_grade
+        print() #blank line
         print("Grade updated successfully!")
 
 student1 = Student(101, "Rahul", 15, "A")
 
+print("\nBefore Grade Update:")
+print() #blank line
 student1.display_details()
 
 student1.update_grade("A+")
 
 print("\nAfter Grade Update:")
+print() #blank line
 student1.display_details()
+
